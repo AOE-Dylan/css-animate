@@ -1,0 +1,12 @@
+#rotate{
+  -webkit-transform: rotate(160deg);
+}
+
+#skew{
+  -webkit-transform: skew(170deg,170deg);
+}
+
+#all{
+  -webkit-transform: skew(100deg, 50deg);
+  -webkit-transform: scale(10,20);
+}

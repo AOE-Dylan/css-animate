@@ -1,0 +1,44 @@
+#rotate{
+  -webkit-transform: rotate(160deg);
+  background-image: url("troll1.png");
+}
+
+#skew{
+  -webkit-transform: skew(170deg,170deg);
+  background-image: url("troll2.png");
+}
+
+#all{
+  background-image: url("jessi.jpeg");
+  -webkit-transform: skew(100deg, 50deg);
+  -webkit-transform: scale(1,2);
+}
+
+@keyframes Mine{
+  0%    {background-color: #9400D3}
+  10%   {background-color: #4B0082}
+  20%   {background-color: #0000FF}
+  30%   {background-color: #00FF00}
+  40%   {background-color: #FFFF00}
+  50%   {background-color: #FF7F00}
+  60%   {background-color: #FF0000}
+  70%   {background-color: #ff66cc}
+  80%   {background-color: #cc00cc}
+  90%   {background-color: #990099}
+  100%  {background-color: #660066}
+}
+
+#animate{
+  position: relative;
+  left: 43%;
+  animation-name: Mine;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#troll{
+  height: 50%;
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+}
