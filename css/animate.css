@@ -42,3 +42,15 @@
   margin: 200px;
   padding: 20px;
 }
+
+@keyframes enhance{
+  0%  {left: 0px; top: 0px; }
+  50% {left: 150px; top: 0px;}
+  100%{left: 275px; top: 0px;}
+}
+
+#rotate, #skew{
+  animation-name: enhance;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
